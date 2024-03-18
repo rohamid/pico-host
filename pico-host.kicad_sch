@@ -7859,6 +7859,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 38.1) (xy 41.91 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8b927e0-0f0f-4870-8e67-ad84780275b7")
+	)
+	(wire
+		(pts
 			(xy 110.49 172.72) (xy 97.79 172.72)
 		)
 		(stroke
@@ -13247,10 +13257,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9137cfaa-ba88-4fd8-ac0d-b538b07bb8a3")
 		(property "Reference" "Q1"
-			(at 35.56 29.2099 0)
+			(at 34.544 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13259,7 +13268,7 @@
 			)
 		)
 		(property "Value" "BSS83P"
-			(at 35.56 31.7499 0)
+			(at 34.544 28.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13267,7 +13276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Diodes_DFN1006-3"
+		(property "Footprint" "DMG3415UFY4Q-7:TRANS_DMG3415UFY4Q-7"
 			(at 34.29 32.385 0)
 			(effects
 				(font
@@ -16555,6 +16564,72 @@
 			(project "pico-host"
 				(path "/1a6f4a6d-c05c-4dd5-b6d1-65b1c9a9285b"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 41.91 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da653e5f-adb7-4428-9485-68d3017e9e33")
+		(property "Reference" "#PWR076"
+			(at 41.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VHI"
+			(at 41.91 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 41.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c3c2678-55d7-4849-adcc-6800c280888d")
+		)
+		(instances
+			(project "pico-host"
+				(path "/1a6f4a6d-c05c-4dd5-b6d1-65b1c9a9285b"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)

@@ -6,4 +6,5 @@
   (lib (name "BM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/lib/BM04B-SRSS-TB_LF__SN_")(options "")(descr ""))
   (lib (name "BM03B-SRSS-TBT_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/lib/BM03B-SRSS-TBT_LF__SN_")(options "")(descr ""))
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
+  (lib (name "DMG3415UFY4Q-7")(type "KiCad")(uri "${KIPRJMOD}/lib/DMG3415UFY4Q-7")(options "")(descr ""))
 )
