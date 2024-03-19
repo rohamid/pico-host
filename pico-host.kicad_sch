@@ -6419,16 +6419,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 76.2) (xy 72.39 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "127f6680-27ba-4d17-9ae5-1d5311418cc6")
-	)
-	(wire
-		(pts
 			(xy 248.92 88.9) (xy 247.65 88.9)
 		)
 		(stroke
@@ -7569,6 +7559,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 170.18) (xy 153.67 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cffa2e5-1932-487f-93a1-ba4c2d0b85c9")
+	)
+	(wire
+		(pts
 			(xy 19.05 160.02) (xy 19.05 161.29)
 		)
 		(stroke
@@ -8269,16 +8269,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 68.58) (xy 72.39 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6b87dee-f437-4835-997e-dfc967fbc456")
-	)
-	(wire
-		(pts
 			(xy 35.56 149.86) (xy 46.99 149.86)
 		)
 		(stroke
@@ -8581,17 +8571,6 @@
 		)
 		(uuid "0c22ec2a-9ff8-42e3-92f9-b1351f0b1685")
 	)
-	(label "GPIO18"
-		(at 182.88 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c3faa3e-c384-45f0-8e02-69e8fb8bb74c")
-	)
 	(label "GPIO26_ADC0"
 		(at 110.49 172.72 180)
 		(fields_autoplaced yes)
@@ -8613,17 +8592,6 @@
 			(justify right bottom)
 		)
 		(uuid "1430e953-d711-49cd-9b5e-93946212fa6c")
-	)
-	(label "GPIO20"
-		(at 182.88 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1806ba26-e2d9-4dfa-8dc7-528028387d36")
 	)
 	(label "~{RST}"
 		(at 175.26 33.02 180)
@@ -8834,6 +8802,17 @@
 		)
 		(uuid "5524f841-71fe-45a5-b13b-013b7ba17761")
 	)
+	(label "GPIO15"
+		(at 182.88 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "56384f78-3f6a-4383-8e1b-bf3740c1c252")
+	)
 	(label "GPIO28_ADC2"
 		(at 110.49 177.8 180)
 		(fields_autoplaced yes)
@@ -8932,17 +8911,6 @@
 			(justify right bottom)
 		)
 		(uuid "701270bb-709f-4526-8b45-4d9cf4737b26")
-	)
-	(label "GPIO19"
-		(at 182.88 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "70614c64-3b6e-4425-ab77-7ec664956f8e")
 	)
 	(label "GPIO29_ADC3"
 		(at 182.88 139.7 0)
@@ -9097,17 +9065,6 @@
 			(justify left bottom)
 		)
 		(uuid "97b26dda-44fe-42a7-990c-98ecf6070bff")
-	)
-	(label "GPIO20"
-		(at 125.73 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e782881-a319-4f91-9672-6a959c69f9cd")
 	)
 	(label "QSPI_SD3"
 		(at 158.75 114.3 180)
@@ -9285,6 +9242,17 @@
 		)
 		(uuid "c8c84b30-9667-480c-bd5b-b7c70504524d")
 	)
+	(label "GPIO20"
+		(at 142.24 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cade7e84-2e63-4c01-a35d-3e7ec178b225")
+	)
 	(label "GPIO3"
 		(at 217.17 157.48 0)
 		(fields_autoplaced yes)
@@ -9295,6 +9263,28 @@
 			(justify left bottom)
 		)
 		(uuid "cb9fb905-779a-4b3c-880a-8226c69614f1")
+	)
+	(label "GPIO14"
+		(at 182.88 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd2cf3b0-5e8e-48e5-acdf-0dc655e9e475")
+	)
+	(label "GPIO8"
+		(at 182.88 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cdf87816-54d7-42f6-b6dc-940650c80aac")
 	)
 	(label "USB_DP"
 		(at 36.83 111.76 0)
@@ -9383,6 +9373,17 @@
 			(justify right bottom)
 		)
 		(uuid "e514b667-6b4a-4c00-9127-51ed59211535")
+	)
+	(label "GPIO21"
+		(at 125.73 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6a2a92c-515b-4ca1-af15-08c4d45e519d")
 	)
 	(label "GPIO21"
 		(at 110.49 157.48 180)
@@ -9786,71 +9787,6 @@
 			(project "pico-host"
 				(path "/1a6f4a6d-c05c-4dd5-b6d1-65b1c9a9285b"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 153.67 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0c16ddf1-9bf7-405d-882e-f692a5a6ffb6")
-		(property "Reference" "#PWR051"
-			(at 153.67 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 153.67 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 153.67 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e3f4121-e7e3-4ad8-896b-c2f2f3636405")
-		)
-		(instances
-			(project "pico-host"
-				(path "/1a6f4a6d-c05c-4dd5-b6d1-65b1c9a9285b"
-					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -10384,72 +10320,6 @@
 			(project "pico-host"
 				(path "/1a6f4a6d-c05c-4dd5-b6d1-65b1c9a9285b"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 72.39 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "208a7032-6fbc-4ad0-a3b2-79a966f7ee65")
-		(property "Reference" "#PWR026"
-			(at 72.39 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "339c3369-9e5b-4fa7-829b-c1cdab14a47c")
-		)
-		(instances
-			(project "pico-host"
-				(path "/1a6f4a6d-c05c-4dd5-b6d1-65b1c9a9285b"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15716,85 +15586,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 72.39 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c668a7db-8b8f-4499-8ca7-88f8d704b84a")
-		(property "Reference" "C6"
-			(at 74.93 71.1262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 74.93 73.6662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d966a6f-180d-455c-b47a-7b4641d248fd")
-		)
-		(pin "2"
-			(uuid "911e5c22-eee5-4aee-9214-28f9a5a7a941")
-		)
-		(instances
-			(project "pico-host"
-				(path "/1a6f4a6d-c05c-4dd5-b6d1-65b1c9a9285b"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 127 68.58 0)
 		(unit 1)
@@ -16926,72 +16717,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 72.39 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6f7376c-555d-4772-9cfd-74782055e18a")
-		(property "Reference" "#PWR025"
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 72.39 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 72.39 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d57b1836-59b7-406e-825c-d2142cdddeeb")
-		)
-		(instances
-			(project "pico-host"
-				(path "/1a6f4a6d-c05c-4dd5-b6d1-65b1c9a9285b"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 41.91 44.45 0)
 		(mirror y)
@@ -17442,7 +17167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 25.4 73.66 0)
 			(effects
 				(font
