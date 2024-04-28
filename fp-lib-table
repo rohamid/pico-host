@@ -7,4 +7,6 @@
   (lib (name "BM03B-SRSS-TBT_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/lib/BM03B-SRSS-TBT_LF__SN_")(options "")(descr ""))
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib")(options "")(descr ""))
   (lib (name "DMG3415UFY4Q-7")(type "KiCad")(uri "${KIPRJMOD}/lib/DMG3415UFY4Q-7")(options "")(descr ""))
+  (lib (name "W25Q16JVUXIQ")(type "KiCad")(uri "${KIPRJMOD}/lib/IC_Winbond_W25Q16JVUXIQ/W25Q16JVUXIQ.pretty")(options "")(descr ""))
+  (lib (name "pico-host-logo")(type "KiCad")(uri "${KIPRJMOD}/lib/pico-host-logo")(options "")(descr ""))
 )

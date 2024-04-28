@@ -4,4 +4,5 @@
   (lib (name "SM04B-SRSS-TB_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/lib/SM04B-SRSS-TB_LF__SN_/SM04B-SRSS-TB_LF__SN_.kicad_sym")(options "")(descr ""))
   (lib (name "BM03B-SRSS-TBT_LF__SN_")(type "KiCad")(uri "${KIPRJMOD}/lib/BM03B-SRSS-TBT_LF__SN_/BM03B-SRSS-TBT_LF__SN_.kicad_sym")(options "")(descr ""))
   (lib (name "TPS61023")(type "Legacy")(uri "${KIPRJMOD}/lib/TPS61023/TPS61023.lib")(options "")(descr ""))
+  (lib (name "W25Q16JVUXIQ")(type "Legacy")(uri "${KIPRJMOD}/lib/IC_Winbond_W25Q16JVUXIQ/W25Q16JVUXIQ.lib")(options "")(descr ""))
 )

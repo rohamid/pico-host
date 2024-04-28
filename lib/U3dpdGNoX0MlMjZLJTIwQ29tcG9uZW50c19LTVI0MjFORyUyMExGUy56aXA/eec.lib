@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# C&K Components KMR421NG LFS
+#
+DEF KMR421NG_LFS SW 0 40 Y Y 1 L N
+F0 "SW" 0 0 50 H V L CNN 
+F1 "KMR421NG LFS" 0 100 50 H V L CNN 
+F2 "CK_Components-KMR421NG_LFS-0-0-*" 0 200 50 H I L CNN 
+F3 "https://www.ckswitches.com/media/1480/kmr4.pdf" 0 300 50 H I L CNN 
+F4 "No" 0 400 50 H I L CNN "automotive"
+F5 "Switch" 0 500 50 H I L CNN "category"
+F6 "100mΩ" 0 600 50 H I L CNN "contact resistance"
+F7 "50mA" 0 700 50 H I L CNN "current rating"
+F8 "Electromechanical" 0 800 50 H I L CNN "device class L1"
+F9 "Switches" 0 900 50 H I L CNN "device class L2"
+F10 "Tactile Switches" 0 1000 50 H I L CNN "device class L3"
+F11 "SWITCH TACTILE SPST-NO 0.05A 32V" 0 1100 50 H I L CNN "digikey description"
+F12 "CKN10792CT-ND" 0 1200 50 H I L CNN "digikey part number"
+F13 "100000Cycles" 0 1300 50 H I L CNN "electromechanical life"
+F14 "2.5mm" 0 1400 50 H I L CNN "height"
+F15 "Yes" 0 1500 50 H I L CNN "lead free"
+F16 "ac0e0aaf706998a8" 0 1600 50 H I L CNN "library id"
+F17 "C&K Components" 0 1700 50 H I L CNN "manufacturer"
+F18 "Surface Mount" 0 1800 50 H I L CNN "mount"
+F19 "Switch Tactile N.O. SPST Round Button Gull Wing 0.05A 32VDC 1VA 2N SMD Automotive T/R" 0 1900 50 H I L CNN "mouser description"
+F20 "611-KMR421NGLFS" 0 2000 50 H I L CNN "mouser part number"
+F21 "2N" 0 2100 50 H I L CNN "operating force"
+F22 "SMT_SW_4MM2_2MM8" 0 2200 50 H I L CNN "package"
+F23 "Yes" 0 2300 50 H I L CNN "rohs"
+F24 "+85°C" 0 2400 50 H I L CNN "temperature range high"
+F25 "-40°C" 0 2500 50 H I L CNN "temperature range low"
+F26 "SPST-NO" 0 2600 50 H I L CNN "throw configuration"
+F27 "32V" 0 2700 50 H I L CNN "voltage rating DC"
+DRAW
+X 2 2 0 -100 200 D 40 0 1 1 P 
+X 1 1 0 -300 200 U 40 0 1 1 P 
+X 4 4 400 -100 200 D 40 0 1 1 P 
+X 3 3 400 -300 200 U 40 0 1 1 P 
+P 2 1 1 0 400 -200 300 -200 N
+P 2 1 1 0 0 -200 100 -200 N
+C 130 -200 20 1 1 0 N
+C 270 -200 20 1 1 0 N
+P 2 1 1 0 150 -190 250 -130 N
+ENDDRAW
+ENDDEF
+#
+# End Library

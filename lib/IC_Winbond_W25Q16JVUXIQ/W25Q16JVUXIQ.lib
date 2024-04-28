@@ -1,0 +1,53 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Winbond W25Q16JVUXIQ
+#
+DEF W25Q16JVUXIQ U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "W25Q16JVUXIQ" 0 300 50 H V L CNN 
+F2 "Winbond-UX-0-0-*" 0 400 50 H I L CNN 
+F3 "https://www.winbond.com/resource-files/w25q16jv%20spi%20revh%2004082019%20plus.pdf" 0 500 50 H I L CNN 
+F4 "6ns" 0 600 50 H I L CNN "access time"
+F5 "+85°C" 0 700 50 H I L CNN "ambient temperature range high"
+F6 "-40°C" 0 800 50 H I L CNN "ambient temperature range low"
+F7 "No" 0 900 50 H I L CNN "automotive"
+F8 "IC" 0 1000 50 H I L CNN "category"
+F9 "Integrated Circuits (ICs)" 0 1100 50 H I L CNN "device class L1"
+F10 "Memory" 0 1200 50 H I L CNN "device class L2"
+F11 "Flash" 0 1300 50 H I L CNN "device class L3"
+F12 "IC FLASH 16MBIT SPI/QUAD 8USON" 0 1400 50 H I L CNN "digikey description"
+F13 "256-W25Q16JVUXIQTRCT-ND" 0 1500 50 H I L CNN "digikey part number"
+F14 "https://www.winbond.com/upload/technical-support/2de8c8de-4b76-47e3-b824-005819e56ed7.pdf" 0 1600 50 H I L CNN "footprint url"
+F15 "532MHz" 0 1700 50 H I L CNN "frequency"
+F16 "0.6mm" 0 1800 50 H I L CNN "height"
+F17 "SPI" 0 1900 50 H I L CNN "interface"
+F18 "Yes" 0 2000 50 H I L CNN "lead free"
+F19 "f2673167c9b4a4df" 0 2100 50 H I L CNN "library id"
+F20 "Winbond" 0 2200 50 H I L CNN "manufacturer"
+F21 "3.6V" 0 2300 50 H I L CNN "max supply voltage"
+F22 "16Mbits" 0 2400 50 H I L CNN "memory size"
+F23 "FLASH" 0 2500 50 H I L CNN "memory type"
+F24 "2.7V" 0 2600 50 H I L CNN "min supply voltage"
+F25 "454-W25Q16JVUXIQTR" 0 2700 50 H I L CNN "mouser part number"
+F26 "2-20mA" 0 2800 50 H I L CNN "nominal supply current"
+F27 "USON8" 0 2900 50 H I L CNN "package"
+F28 "Yes" 0 3000 50 H I L CNN "rohs"
+F29 "0mm" 0 3100 50 H I L CNN "standoff height"
+F30 "+85°C" 0 3200 50 H I L CNN "temperature range high"
+F31 "-40°C" 0 3300 50 H I L CNN "temperature range low"
+DRAW
+X VCC 8 100 0 100 R 40 40 1 1 W 
+X ~CS~ 1 100 -700 100 R 40 40 1 1 I 
+X ~HOLD~(IO3) 7 100 -600 100 R 40 40 1 1 B 
+X ~WP~(IO2) 3 100 -500 100 R 40 40 1 1 B 
+X CLK 6 100 -200 100 R 40 40 1 1 I C
+X DI(IO0) 5 100 -300 100 R 40 40 1 1 B 
+X DO(IO1) 2 100 -400 100 R 40 40 1 1 B 
+X EP 9 1400 -500 100 L 40 40 1 1 P 
+X GND 4 1400 -700 100 L 40 40 1 1 W 
+S 200 100 1300 -800 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
